@@ -43,8 +43,8 @@ func init() {
 
 	fmt.Println("mongo connection established")
 
-	usercollection = mongoclient.Database("denemedb").Collection("users")
-	groupcollection = mongoclient.Database("denemedb").Collection("groups")
+	usercollection = mongoclient.Database("Iaestedb").Collection("Users")
+	groupcollection = mongoclient.Database("Iaestedb").Collection("Groups")
 
 	userservice = services.NewUserService(usercollection, ctx)
 	groupservice = services.NewGroupService(groupcollection, ctx)
