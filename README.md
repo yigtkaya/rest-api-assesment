@@ -1,4 +1,4 @@
-# rest-api-assesment for IASTE application
+# rest-api-task for IASTE application
 
 Task: Create a user and group management REST API service. Service should provide a way to list, add, modify and remove users and groups. Each user can belong to at most one group.
 
