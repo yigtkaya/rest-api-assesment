@@ -5,14 +5,22 @@ Task: Create a user and group management REST API service. Service should provid
 coded with latest GO release, using gin web-framework and mongodb for database. Swagger docs are written with OPEN API 2.0 and annotations within the code is from go-swagger package.
 Containerized with Docker. 
 
- to get project run:
+ To get project run:
     
     $ git clone https://github.com/yigtkaya/rest-api-assesment.git
 
- go to project file:
+ Go to project file:
    
     cd /to/file/path
  
+ Get dependecies with:
+ 
+     $ go mod download
+ 
+ Build project:
+ 
+     $ go build
+
  for test go to controller folder where endpoint test functions are:
 
     $ cd controller 
