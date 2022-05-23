@@ -13,6 +13,9 @@ Containerized with Docker.
    
     cd /to/file/path
  
+ Create .env file and put your Mongodb url in
+ 	mongo_uri = <MongoUri>
+ 
  Get dependecies with:
  
      $ go mod download
