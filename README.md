@@ -21,7 +21,7 @@ Containerized with Docker.
  
      $ go build
 
- for test go to controller folder where endpoint test functions are:
+ (If wanted) for test go to controller folder where endpoint test functions are:
 
     $ cd controller 
 
